@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "text": "Ты потерял память. Принять вызов НЛО?",
+    "answerList": [
+      { "text": "Принять вызов", "wrongAnswer": false },
+      { "text": "Отклонить вызов", "wrongAnswer": true, "wrongAnswerEndText": "Ты отклонил вызов. Поражение." }
+    ]
+  },
+  {
+    "id": 2,
+    "text": "Ты принял вызов. Поднимаешься на мостик к капитану?",
+    "answerList": [
+      { "text": "Подняться на мостик", "wrongAnswer": false },
+      { "text": "Отказаться подниматься", "wrongAnswer": true, "wrongAnswerEndText": "Ты не пошел на переговоры. Поражение." }
+    ]
+  },
+  {
+    "id": 3,
+    "text": "Ты поднялся на мостик. Ты кто?",
+    "answerList": [
+      { "text": "Солгать о себе", "wrongAnswer": true, "wrongAnswerEndText": "Твою ложь разоблачили. Поражение." },
+      { "text": "Рассказать правду", "wrongAnswer": false }
+    ]
+  },
+  {
+    "id": 4,
+    "text": "Ты хочешь вернуться домой?",
+    "answerList": [
+      { "text": "Нет", "wrongAnswer": true, "wrongAnswerEndText": "Ты улетел с ними. Поражение." },
+      { "text": "Да", "wrongAnswer": false }
+    ]
+  }
+]
